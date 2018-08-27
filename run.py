@@ -28,7 +28,7 @@ def display_passwords():
 
 
 def main():
-    print("Hello welcome to your password list. What is your name?")
+    print("Hello welcome to your account. What is your name?")
     user_name = input()
 
     print(f"Hello {user_name}. what would you like to do?")
@@ -57,13 +57,13 @@ def main():
 
             save_passwords(create_password(f_name, l_name, p_number, e_address))
             print('\n')
-            print(f"New Password {f_name} {l_name} created")
+            print(f"New Account {f_name} {l_name} created")
             print('\n')
 
         elif short_code == 'dc':
 
             if display_passwords():
-                print("Here is a list of all your passwords")
+                print("Here is a list of all your accounts")
                 print('\n')
 
                 for password in display_passwords():
