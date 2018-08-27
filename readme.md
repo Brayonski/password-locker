@@ -2,7 +2,7 @@
 > Command based app for creating password locker account.
 
 
-> Password locker account is a command based run app that: store existing log in credentials, generating password for new account creation, copying credentials to clipboard and a user can dictate the lenth of password generated.
+> Password locker is a command based run app that: store existing log in credentials, generating password for new account creation, copying credentials to clipboard and a user can dictate the lenth of password generated.
 
 
 ## Installation
