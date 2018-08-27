@@ -56,10 +56,10 @@ def main():
             print("Email address ...")
             e_address = input()
 
-            print("Password ...")
-            pwd = input()
+            pwd = getpass.getpass('Password:')
+            
 
-            save_passwords(create_password(f_name, l_name, p_number, e_address, pwd))
+            save_passwords(create_password(f_name, l_name, p_number, e_address))
             print('\n')
             print(f"New Account {f_name} {l_name} created")
             print('\n')
