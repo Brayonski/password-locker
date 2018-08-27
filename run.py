@@ -92,7 +92,7 @@ def main():
                 print(f"phone number ... {search_password.phone_number}")
                 print(f"Email address ... {search_password.email}")
             else:
-                print("That password does not exist")
+                print("That Account does not exist")
 
         elif short_code == "ex":
             print("Bye ... ")
