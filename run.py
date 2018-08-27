@@ -2,6 +2,7 @@
 from password import Password
 import getpass
 from termcolor import colored
+colorgrn = "\033[1;36m{0}\033[00m"
 
 
 def create_password(fname, lname, phone, email):
@@ -62,7 +63,7 @@ def main():
 
             save_passwords(create_password(f_name, l_name, p_number, e_address))
             print('\n')
-            print(f"New Account for {f_name} {l_name} has been successfully created")
+            print (colored(f"New Account for {f_name} {l_name} has been successfully created", 'green' ))
             print('\n')
 
         elif short_code == 'dc':
