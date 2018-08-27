@@ -40,7 +40,7 @@ def main():
         short_code = input().lower()
 
         if short_code == 'cc':
-            print("New Password")
+            print("New Account")
             print("-"*10)
 
             print("First name ...")
