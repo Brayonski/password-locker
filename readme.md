@@ -9,7 +9,7 @@
 
 OS X & Linux & Windows:
 
-Clone the project from github repository https://github.com/Brayonski/password-locker and type python3.6 run.py in terminal
+>Clone the project from github repository https://github.com/Brayonski/password-locker and type python3.6 run.py in terminal
 
 
 ## Development setup
