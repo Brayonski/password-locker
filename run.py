@@ -36,7 +36,7 @@ def main():
     print('\n')
 
     while True:
-        print("Use these short code : cc - create a new password, dc - dislay password, fc - find a password, ex - exit the password list")
+        print("Use these short code : cc - create a new Account, dc - dislay Account, fc - find a Accoount, ex - exit the Account list")
 
         short_code = input().lower()
 
@@ -61,7 +61,7 @@ def main():
 
             save_passwords(create_password(f_name, l_name, p_number, e_address))
             print('\n')
-            print(f"New Account {f_name} {l_name} created")
+            print(f"New Account for {f_name} {l_name} has been successfully created")
             print('\n')
 
         elif short_code == 'dc':
