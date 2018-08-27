@@ -1,8 +1,7 @@
 #!/usr/bin/env python3.6
 from password import Password
+from termcolor import colored, cprint
 import getpass
-from termcolor import colored
-colorgrn = "\033[1;36m{0}\033[00m"
 
 
 def create_password(fname, lname, phone, email):
@@ -38,7 +37,7 @@ def main():
     print('\n')
 
     while True:
-        print("Use these short code : cc - create a new Account, dc - dislay Account, fc - find a Accoount, ex - exit the Account list")
+        print("Use these short code : cc - create a new Account, dc - display Account, fc - find a Accoount, ex - exit the Account list")
 
         short_code = input().lower()
 
@@ -63,6 +62,7 @@ def main():
 
             save_passwords(create_password(f_name, l_name, p_number, e_address))
             print('\n')
+            cprint (colored("Success!",'yellow', attrs=['blink']))
             print (colored(f"New Account for {f_name} {l_name} has been successfully created", 'green' ))
             print('\n')
 
