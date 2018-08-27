@@ -27,7 +27,7 @@ Clone the project from github repository https://github.com/Brayonski/password-l
 
 ## Meta
 
-Brian MUtai – [Github](https://twitter.com/dbader_org) – YourEmail@example.com
+Brian Mutai – kiprotichbrian8@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 

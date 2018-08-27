@@ -1,5 +1,6 @@
 #!/usr/bin/env python3.6
 from password import Password
+import getpass
 
 
 def create_password(fname, lname, phone, email):
